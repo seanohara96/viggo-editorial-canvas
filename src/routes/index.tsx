@@ -59,7 +59,7 @@ function Index() {
             <p>
               i’m viggo, a new york-based artist and songwriter. i write songs
               because it’s the closest thing i’ve found to making sense of the
-              world — or at least of my own place in it. my writing tends to
+              world - or at least of my own place in it. my writing tends to
               circle love, loss, identity, relationships, and the small everyday
               moments that end up meaning more than the big ones.
             </p>
