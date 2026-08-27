@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "../assets/viggo-portrait.jpg";
+import portraitAsset from "../assets/viggo-portrait.jpg.asset.json";
+
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -40,12 +41,13 @@ function Index() {
             </div>
             <figure className="md:mt-16">
               <img
-                src={portrait}
+                src={portraitAsset.url}
                 alt="Candid editorial portrait of Viggo"
                 width={1024}
                 height={1280}
                 className="w-full object-cover md:w-11/12"
               />
+
             </figure>
           </div>
         </section>
