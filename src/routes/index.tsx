@@ -61,19 +61,17 @@ function Index() {
               circle love, loss, identity, relationships, and the small everyday
               moments that end up meaning more than the big ones.
             </p>
-            <p>
-              over the past few years i’ve had the chance to work
-              internationally with artists across different scenes and
-              languages. i love the puzzle of it: finding the right melody, the
-              right phrase, the right feeling in a room where no one speaks the
-              same first language. i’m drawn to emotionally driven pop, big
-              atmosphere, melody that sticks, and the kind of european
-              songwriting sensibility that treats a three-minute song like a
-              short film. eurovision, in its own way, has always felt like the
-              purest version of that idea to me. i write both for myself and for
-              other artists, and i’m happiest when i’m not entirely sure whose
-              song it is yet. this site is a small window into that process.
-            </p>
+              <p>
+                over the past few years i’ve had the chance to work
+                internationally with artists across different scenes and
+                languages. i love the puzzle of it: finding the right melody, the
+                right phrase, the right feeling in a room where no one speaks the
+                same first language. i’m drawn to emotionally driven pop, big
+                atmosphere, melody that sticks, and lyrics that take you on a
+                journey. i write both for myself and for other artists, and i’m
+                happiest when i’m not entirely sure whose song it is yet. this
+                site is a small window into that process.
+              </p>
           </div>
         </section>
 
