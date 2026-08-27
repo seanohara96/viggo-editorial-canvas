@@ -1,30 +1,6 @@
-import { createFileRoute } from "@tanstack/react-router";
-import portraitAsset from "../assets/viggo-portrait.jpg.asset.json";
+import portrait from "./assets/viggo-portrait.jpg";
 
-
-export const Route = createFileRoute("/")({
-  component: Index,
-  head: () => ({
-    meta: [
-      { title: "Viggo — Artist & Songwriter" },
-      {
-        name: "description",
-        content:
-          "Viggo is a New York-based artist and songwriter writing emotionally driven pop music about love, loss, identity, and everyday life.",
-      },
-      { property: "og:title", content: "Viggo — Artist & Songwriter" },
-      {
-        property: "og:description",
-        content:
-          "Viggo is a New York-based artist and songwriter writing emotionally driven pop music about love, loss, identity, and everyday life.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
-  }),
-});
-
-function Index() {
+export default function App() {
   return (
     <main className="min-h-screen bg-background text-foreground antialiased selection:bg-foreground/10">
       <div className="mx-auto max-w-3xl px-6 py-16 md:px-12 md:py-24">
@@ -41,13 +17,12 @@ function Index() {
             </div>
             <figure className="md:mt-16">
               <img
-                src={portraitAsset.url}
+                src={portrait}
                 alt="Candid editorial portrait of Viggo"
                 width={1024}
                 height={1280}
                 className="w-full object-cover md:w-11/12"
               />
-
             </figure>
           </div>
         </section>
@@ -63,17 +38,17 @@ function Index() {
               circle love, loss, identity, relationships, and the small everyday
               moments that end up meaning more than the big ones.
             </p>
-              <p>
-                over the past few years i’ve had the chance to work
-                internationally with artists across different scenes and
-                languages. i love the puzzle of it: finding the right melody, the
-                right phrase, the right feeling in a room where no one speaks the
-                same first language. i’m drawn to emotionally driven pop, big
-                atmosphere, melody that sticks, and lyrics that take you on a
-                journey. i write both for myself and for other artists, and i’m
-                happiest when i’m not entirely sure whose song it is yet. this
-                site is a small window into that process.
-              </p>
+            <p>
+              over the past few years i’ve had the chance to work
+              internationally with artists across different scenes and
+              languages. i love the puzzle of it: finding the right melody, the
+              right phrase, the right feeling in a room where no one speaks the
+              same first language. i’m drawn to emotionally driven pop, big
+              atmosphere, melody that sticks, and lyrics that take you on a
+              journey. i write both for myself and for other artists, and i’m
+              happiest when i’m not entirely sure whose song it is yet. this
+              site is a small window into that process.
+            </p>
           </div>
         </section>
 
